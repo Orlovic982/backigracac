@@ -1,0 +1,150 @@
+.logo  {
+
+  text-align: center;
+  width: 100%;
+  font-family:Georgia;
+  font-size: 200%;
+  font-style: italic;
+  color: blue;
+  }
+
+.meni {
+    overflow: hidden;
+    background:orange;
+  }
+  
+  
+  .meni a {
+    float: left;
+    display: block;
+    color: white;
+    font-weight:bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .meni a:hover {
+    background: silver;
+    color: black;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .meni a {
+      float: none;
+      width: 100%;
+    }
+
+    .kontejner2 {
+      text-align: center;
+     height: 150px;
+      padding: 10px;
+    }
+  
+  .kontejner2 img {
+  display: none;
+  
+  }
+
+  .kontejner3 {
+    float: none;
+    width: 90%;
+  }
+
+
+  }
+
+
+  .ngbaner {
+    margin: 20px;
+      padding:20px;
+      width: 90%;
+      background-color: red;
+     text-align: center;
+      animation-name: ngpopust;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      color: white;
+    }
+    
+    @keyframes ngpopust {
+      0%   {background-color:red; }
+      25%  {background-color:orange; }
+      50%  {background-color:blue; }
+      75%  {background-color:green;}
+      100% {background-color:red; }
+    }
+  
+  .kontejner {
+
+      width: 100%;
+      text-align: center;
+      font-size: 300%;
+      font-style: italic;
+      font-family: Geneva;
+      color: blueviolet;
+    }  
+   
+    .kontejner2 {
+
+      width: 80%;
+      height: 200px;
+      border: 2px solid orange;
+      margin:auto;
+      padding: 10px;
+      text-align: justify;
+  
+  }
+  
+  .kontejner2 h{
+      font-size: 150%;
+  }
+  
+  .kontejner2 img {
+  height: 150px;
+  width:150px;
+  float: left;
+  margin: 4px;
+  
+  }
+  
+ 
+  
+  
+  .kontejner2 a {
+  color: blueviolet;
+  }
+  
+  .kontejner2 a:hover {
+  
+  color: red;    
+  }
+  
+  .kontejner2 a:active{
+  
+      columns: rgb(23, 181, 230);
+  }
+
+  .kontejner3 {
+    background-color: rgb(243, 223, 187);
+    width:30%;
+  float: left;
+    border: solid rgb(228, 81, 13) 2px;
+    text-align: justify;
+    padding: 14px;
+    height: 400px;
+    margin: 20px;
+  }
+  
+  
+
+
+.footer {
+  
+  width: 100%;
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
